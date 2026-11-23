@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque, IBM_Plex_Sans } from "next/font/google";
+import { Bricolage_Grotesque, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
-const titre = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-titre", weight: ["700", "800"] });
-const texte = IBM_Plex_Sans({ subsets: ["latin"], variable: "--font-texte", weight: ["400", "500", "600"] });
+const titre = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-titre" });
+const texte = Source_Sans_3({ subsets: ["latin"], variable: "--font-texte" });
 
 export const metadata: Metadata = {
   title: "Tarif Juste : combien perds-tu à facturer trop bas ?",
